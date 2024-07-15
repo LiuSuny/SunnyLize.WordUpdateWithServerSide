@@ -1,0 +1,140 @@
+﻿<Window x:Class="SunnyLize.Word.DialogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SunnyLize.Word"
+        xmlns:core="clr-namespace:SunnyLize.Word.Core;assembly=SunnyLize.Word.Core"
+        mc:Ignorable="d"
+        WindowStyle="None" 
+        AllowsTransparency="True" 
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        SizeToContent="WidthAndHeight"
+        Icon="Images/Logo/logo-small.png"
+        MinWidth="{Binding WindowMinimiumWidth}"
+        MinHeight="{Binding WindowMinimumHeight}"
+        Title="{Binding Title}" >
+    <!--next we want to styles our window-->
+    <Window.Resources>
+        <Style TargetType="{x:Type local:DialogWindow}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Window}">
+
+                        <!--Outer border with the dropshadow margin-->
+                        <Border Padding="{Binding OuterMargineSizeThickness, FallbackValue=10}">
+
+                            <!--this grid is the main window outline-->
+                            <Grid >
+
+                                <!--Opacity mask for corners on grid-->
+                                <Border x:Name="Contianer"
+                                        Background="{StaticResource BackgroundLightBrush}"
+                                        CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}"/>
+
+                                <!--Mainwindow with resizeable outline margin-->
+                                <Border CornerRadius="{Binding WindowCornerRadius, FallbackValue=10}"
+                                        Background="{Binding ForegroundLightBrush, FallbackValue=White}">
+                                    <Border.Effect>
+                                        <DropShadowEffect ShadowDepth="0" Opacity="0.2"/>
+                                    </Border.Effect>
+                                </Border>
+
+                                <!--The main window contents overview of everything-->
+                                <Grid>
+                                    <!--Corner clipping-->
+                                    <Grid.OpacityMask>
+                                        <VisualBrush Visual="{Binding ElementName=Contianer}"/>
+                                    </Grid.OpacityMask>
+
+                                    <Grid.RowDefinitions>
+
+                                        <!--Title Bar-->
+                                        <RowDefinition Height="{Binding TitleHeightGridLength, FallbackValue=42}"/>
+
+                                        <!--Drop shadow-->
+                                        <!--
+                                        <RowDefinition Height="Auto" />-->
+
+                                        <!--Window content-->
+                                        <RowDefinition Height="*"/>
+
+                                    </Grid.RowDefinitions>
+
+                                    <!--Title bar-->
+                                    <Grid Grid.Column="0" Panel.ZIndex="1">
+                                        <Grid.ColumnDefinitions>
+                                            <!--Icon-->
+                                            <ColumnDefinition Width="Auto"/>
+                                            <!--Title-->
+                                            <ColumnDefinition Width="*"/>
+                                            <!--Window button max and min button-->
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <!--Icon Button-->
+                                        <!--<Button Padding ="8" Style="{StaticResource Hoverless}" WindowChrome.IsHitTestVisibleInChrome="True" Command="{Binding MenuCommand}"/>-->
+                                        <Button Style="{StaticResource SystemIconButton}" Command="{Binding MenuCommand}">
+                                            <Image Source="/Images/Logo/logo-small.png"/>
+                                        </Button>
+
+                                        <!--Title-->
+                                        <TextBlock Grid.Column="1"
+                                                  Text="{Binding Title}" 
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Center"
+                                                   FontSize="{StaticResource FontSizeLarge}"
+                                                   FontFamily="{StaticResource LatoRegular}"
+                                                   Foreground="{StaticResource ForegroundVeryDarkBrush}"
+                                                   
+                                                   />
+
+
+                                        <!--Window Button for minimize and close button-->
+                                        <StackPanel Grid.Column="2" Orientation="Horizontal">
+                                            <Button Command="{Binding MinimizeCommand}" 
+                                                    Style="{StaticResource WindowControlButton}"
+                                                    Visibility="Collapsed"
+                                                    Content="_"/>
+
+                                            <Button Command="{Binding MaximizeCommand}" 
+                                                    Style="{StaticResource WindowControlButton}" 
+                                                     Visibility="Collapsed"
+                                                    Content="[ ]"/>
+
+                                            <Button Command="{Binding CloseCommand}" 
+                                                    Style="{StaticResource WindowCloseButton}" 
+                                                    Content="X"/>
+
+                                        </StackPanel>
+                                    </Grid>
+
+                                    <!--Page content-->
+                                    <Border Grid.Row="1" Padding="{Binding InnerContentPadding}" ClipToBounds="True">
+                                        <ContentPresenter Content="{TemplateBinding Content}"/>
+                                    </Border>
+                                </Grid>
+                            </Grid>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <!--ability to access our package microsoft shell we implement the following-->
+    <WindowChrome.WindowChrome>
+        <WindowChrome ResizeBorderThickness="{Binding ResizeBorderThickness}"
+          CaptionHeight="{Binding TitleHeight}" 
+           CornerRadius="0"
+          GlassFrameThickness="0"
+                      />
+    </WindowChrome.WindowChrome>
+
+    <Border Background="{StaticResource ForegroundLightBrush}" 
+            Padding="10">
+        <ContentControl Content="{Binding Content}"/>
+    </Border>
+
+</Window>

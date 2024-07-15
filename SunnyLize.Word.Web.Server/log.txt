@@ -1,0 +1,364 @@
+INFORMATION: [2024-07-04 07:54:39] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFORMATION: [2024-07-04 07:54:44] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-04 07:54:46] Executed DbCommand (234ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+DEBUG: [2024-07-04 07:54:48] Failed to authenticate HTTPS connection.
+INFORMATION: [2024-07-04 07:54:49] Request starting HTTP/1.1 GET https://localhost:5555/  
+INFORMATION: [2024-07-04 07:54:50] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SunnyLize.Word.Web.Server.HomeController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-04 07:54:50] Executing action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-04 07:54:50] Executed action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.4338ms.
+INFORMATION: [2024-07-04 07:55:02] Executing ViewResult, running view Index.
+INFORMATION: [2024-07-04 07:55:04] Executed ViewResult - view Index executed in 13778.4015ms.
+INFORMATION: [2024-07-04 07:55:04] Executed action SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) in 13890.9741ms
+INFORMATION: [2024-07-04 07:55:04] Request finished in 14978.9922ms 200 text/html; charset=utf-8
+INFORMATION: [2024-07-04 07:55:04] Request starting HTTP/1.1 GET https://localhost:5555/favicon.ico  
+INFORMATION: [2024-07-04 07:55:04] Request finished in 65.8164ms 404 
+INFORMATION: [2024-07-04 08:48:08] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFORMATION: [2024-07-04 08:48:10] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-04 08:48:11] Executed DbCommand (811ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+DEBUG: [2024-07-04 08:48:12] Failed to authenticate HTTPS connection.
+DEBUG: [2024-07-04 08:48:12] Failed to authenticate HTTPS connection.
+INFORMATION: [2024-07-04 08:48:12] Request starting HTTP/1.1 GET https://localhost:5555/  
+INFORMATION: [2024-07-04 08:48:13] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SunnyLize.Word.Web.Server.HomeController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-04 08:48:13] Executing action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-04 08:48:13] Executed action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.9429ms.
+INFORMATION: [2024-07-04 08:48:16] Executing ViewResult, running view Index.
+INFORMATION: [2024-07-04 08:48:17] Executed ViewResult - view Index executed in 4042.1679ms.
+INFORMATION: [2024-07-04 08:48:17] Executed action SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) in 4124.5274ms
+INFORMATION: [2024-07-04 08:48:17] Request finished in 4511.7821ms 200 text/html; charset=utf-8
+INFORMATION: [2024-07-08 10:36:01] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFORMATION: [2024-07-08 10:36:05] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-08 10:36:06] Executed DbCommand (54ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+DEBUG: [2024-07-08 10:36:09] Failed to authenticate HTTPS connection.
+INFORMATION: [2024-07-08 10:36:09] Request starting HTTP/1.1 GET https://localhost:5555/  
+INFORMATION: [2024-07-08 10:36:11] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SunnyLize.Word.Web.Server.HomeController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-08 10:36:11] Executing action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-08 10:36:11] Executed action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.1476ms.
+INFORMATION: [2024-07-08 10:36:21] Executing ViewResult, running view Index.
+INFORMATION: [2024-07-08 10:36:22] Executed ViewResult - view Index executed in 11210.8648ms.
+INFORMATION: [2024-07-08 10:36:22] Executed action SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) in 11344.0389ms
+INFORMATION: [2024-07-08 10:36:22] Request finished in 12965.2467ms 200 text/html; charset=utf-8
+INFORMATION: [2024-07-08 10:36:22] Request starting HTTP/1.1 GET https://localhost:5555/favicon.ico  
+INFORMATION: [2024-07-08 10:36:22] Request finished in 14.0436ms 404 
+INFORMATION: [2024-07-08 02:43:27] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFORMATION: [2024-07-08 02:43:29] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-08 02:43:29] Executed DbCommand (255ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+DEBUG: [2024-07-08 02:43:30] Failed to authenticate HTTPS connection.
+DEBUG: [2024-07-08 02:43:30] Failed to authenticate HTTPS connection.
+INFORMATION: [2024-07-08 02:43:34] Request starting HTTP/1.1 GET https://localhost:5555/  
+INFORMATION: [2024-07-08 02:43:34] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SunnyLize.Word.Web.Server.HomeController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-08 02:43:35] Executing action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-08 02:43:35] Executed action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.51ms.
+INFORMATION: [2024-07-08 02:43:41] Executing ViewResult, running view Index.
+INFORMATION: [2024-07-08 02:43:45] Executed ViewResult - view Index executed in 10101.903ms.
+INFORMATION: [2024-07-08 02:43:45] Executed action SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) in 10310.6132ms
+INFORMATION: [2024-07-08 02:43:45] Request finished in 11063.317ms 200 text/html; charset=utf-8
+INFORMATION: [2024-07-12 10:41:32] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFORMATION: [2024-07-12 10:41:37] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-12 10:41:39] Executed DbCommand (467ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+DEBUG: [2024-07-12 10:41:43] Failed to authenticate HTTPS connection.
+INFORMATION: [2024-07-12 10:41:44] Request starting HTTP/1.1 GET https://localhost:5555/  
+INFORMATION: [2024-07-12 10:41:46] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SunnyLize.Word.Web.Server.HomeController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 10:41:47] Executing action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 10:41:47] Executed action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ViewResult in 10.4574ms.
+INFORMATION: [2024-07-12 10:41:59] Executing ViewResult, running view Index.
+INFORMATION: [2024-07-12 10:42:01] Executed ViewResult - view Index executed in 14013.863ms.
+INFORMATION: [2024-07-12 10:42:01] Executed action SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) in 14735.305ms
+INFORMATION: [2024-07-12 10:42:01] Request finished in 17238.4544ms 200 text/html; charset=utf-8
+INFORMATION: [2024-07-12 10:42:01] Request starting HTTP/1.1 GET https://localhost:5555/favicon.ico  
+INFORMATION: [2024-07-12 10:42:02] Request finished in 38.29ms 404 
+INFORMATION: [2024-07-12 10:44:04] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 84
+INFORMATION: [2024-07-12 10:44:04] Request finished in 89.886ms 307 
+INFORMATION: [2024-07-12 10:44:04] Connection id "0HN528O8PFI87", Request id "0HN528O8PFI87:00000001": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 10:44:04] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 84
+INFORMATION: [2024-07-12 10:44:05] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 10:44:05] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 10:44:05] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.6769ms.
+INFORMATION: [2024-07-12 10:44:06] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 10:44:06] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 1114.199ms
+INFORMATION: [2024-07-12 10:44:06] Request finished in 1307.0022ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 10:44:28] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 87
+INFORMATION: [2024-07-12 10:44:28] Request finished in 19.6294ms 307 
+INFORMATION: [2024-07-12 10:44:28] Connection id "0HN528O8PFI87", Request id "0HN528O8PFI87:00000002": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 10:44:28] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 87
+INFORMATION: [2024-07-12 10:44:28] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 10:44:28] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 10:44:28] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1466ms.
+INFORMATION: [2024-07-12 10:44:28] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 10:44:28] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 26.2358ms
+INFORMATION: [2024-07-12 10:44:28] Request finished in 44.7835ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 10:47:07] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 85
+INFORMATION: [2024-07-12 10:47:07] Request finished in 3.6426ms 307 
+INFORMATION: [2024-07-12 10:47:07] Connection id "0HN528O8PFI89", Request id "0HN528O8PFI89:00000001": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 10:47:07] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 85
+INFORMATION: [2024-07-12 10:47:07] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 10:47:07] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 10:47:07] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0188ms.
+INFORMATION: [2024-07-12 10:47:07] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 10:47:07] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 18.4168ms
+INFORMATION: [2024-07-12 10:47:07] Request finished in 32.0642ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 10:47:16] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 85
+INFORMATION: [2024-07-12 10:47:16] Request finished in 3.8011ms 307 
+INFORMATION: [2024-07-12 10:47:16] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 85
+INFORMATION: [2024-07-12 10:47:16] Connection id "0HN528O8PFI89", Request id "0HN528O8PFI89:00000002": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 10:47:16] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 10:47:16] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 10:47:16] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0331ms.
+INFORMATION: [2024-07-12 10:47:16] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 10:47:16] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 17.4749ms
+INFORMATION: [2024-07-12 10:47:16] Request finished in 35.6281ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 10:48:12] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 91
+INFORMATION: [2024-07-12 10:48:12] Request finished in 7.0649ms 307 
+INFORMATION: [2024-07-12 10:48:12] Connection id "0HN528O8PFI89", Request id "0HN528O8PFI89:00000003": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 10:48:12] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 91
+INFORMATION: [2024-07-12 10:48:12] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 10:48:12] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 10:48:12] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0205ms.
+INFORMATION: [2024-07-12 10:48:12] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 10:48:12] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 19.5382ms
+INFORMATION: [2024-07-12 10:48:12] Request finished in 45.4568ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 10:56:46] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFORMATION: [2024-07-12 10:56:48] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-12 10:56:48] Executed DbCommand (53ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+DEBUG: [2024-07-12 10:56:49] Failed to authenticate HTTPS connection.
+DEBUG: [2024-07-12 10:56:49] Failed to authenticate HTTPS connection.
+INFORMATION: [2024-07-12 10:56:49] Request starting HTTP/1.1 GET https://localhost:5555/  
+INFORMATION: [2024-07-12 10:56:50] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SunnyLize.Word.Web.Server.HomeController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 10:56:50] Executing action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 10:56:50] Executed action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.6328ms.
+INFORMATION: [2024-07-12 10:56:53] Executing ViewResult, running view Index.
+INFORMATION: [2024-07-12 10:56:54] Executed ViewResult - view Index executed in 4372.3944ms.
+INFORMATION: [2024-07-12 10:56:54] Executed action SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) in 4457.1189ms
+INFORMATION: [2024-07-12 10:56:54] Request finished in 4848.9594ms 200 text/html; charset=utf-8
+INFORMATION: [2024-07-12 10:57:31] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 82
+INFORMATION: [2024-07-12 10:57:31] Request finished in 26.787ms 307 
+INFORMATION: [2024-07-12 10:57:31] Connection id "0HN5290NEGGGB", Request id "0HN5290NEGGGB:00000001": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 10:57:31] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 82
+INFORMATION: [2024-07-12 10:57:31] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 10:57:31] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+WARNING: [2024-07-12 10:57:45] User ba92563a-b211-4577-bc11-a7b93e3570b0 password validation failed: PasswordRequiresLower.
+INFORMATION: [2024-07-12 10:57:52] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 20725.844ms.
+INFORMATION: [2024-07-12 10:57:52] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 10:57:52] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 21322.3548ms
+INFORMATION: [2024-07-12 10:57:52] Request finished in 21366.0764ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 10:58:41] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 89
+INFORMATION: [2024-07-12 10:58:41] Request finished in 8.6821ms 307 
+INFORMATION: [2024-07-12 10:58:41] Connection id "0HN5290NEGGGB", Request id "0HN5290NEGGGB:00000002": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 10:58:41] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 89
+INFORMATION: [2024-07-12 10:58:41] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 10:58:41] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+WARNING: [2024-07-12 10:58:53] User 2aa09c42-5c4d-4bcb-aa23-2f9ea6e66e36 validation failed: InvalidUserName;InvalidEmail.
+INFORMATION: [2024-07-12 10:59:07] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 25922.6251ms.
+INFORMATION: [2024-07-12 10:59:07] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 10:59:07] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 26007.9504ms
+INFORMATION: [2024-07-12 10:59:07] Request finished in 26043.3006ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 10:59:53] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 89
+INFORMATION: [2024-07-12 10:59:53] Request finished in 12.5415ms 307 
+INFORMATION: [2024-07-12 10:59:53] Connection id "0HN5290NEGGGB", Request id "0HN5290NEGGGB:00000003": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 10:59:53] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 89
+INFORMATION: [2024-07-12 10:59:53] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 10:59:53] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+WARNING: [2024-07-12 11:00:00] User 25c47922-f0b8-4da3-9af3-b514798414dc validation failed: InvalidUserName;InvalidEmail.
+INFORMATION: [2024-07-12 11:00:19] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 26672.8895ms.
+INFORMATION: [2024-07-12 11:00:19] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 11:00:19] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 26762.6665ms
+INFORMATION: [2024-07-12 11:00:19] Request finished in 26776.7083ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 11:00:52] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 89
+INFORMATION: [2024-07-12 11:00:52] Request finished in 10.9658ms 307 
+INFORMATION: [2024-07-12 11:00:52] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 89
+INFORMATION: [2024-07-12 11:00:52] Connection id "0HN5290NEGGGB", Request id "0HN5290NEGGGB:00000004": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 11:00:52] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:00:52] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:01:07] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFORMATION: [2024-07-12 11:01:08] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-12 11:01:09] Executed DbCommand (92ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+DEBUG: [2024-07-12 11:01:09] Failed to authenticate HTTPS connection.
+INFORMATION: [2024-07-12 11:01:10] Request starting HTTP/1.1 GET https://localhost:5555/  
+INFORMATION: [2024-07-12 11:01:10] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SunnyLize.Word.Web.Server.HomeController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:01:10] Executing action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:01:10] Executed action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.703ms.
+INFORMATION: [2024-07-12 11:01:14] Executing ViewResult, running view Index.
+INFORMATION: [2024-07-12 11:01:15] Executed ViewResult - view Index executed in 4748.4843ms.
+INFORMATION: [2024-07-12 11:01:15] Executed action SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) in 4843.4272ms
+INFORMATION: [2024-07-12 11:01:15] Request finished in 5260.2114ms 200 text/html; charset=utf-8
+INFORMATION: [2024-07-12 11:01:18] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 89
+INFORMATION: [2024-07-12 11:01:18] Request finished in 15.7446ms 307 
+INFORMATION: [2024-07-12 11:01:18] Connection id "0HN529353L4UI", Request id "0HN529353L4UI:00000001": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 11:01:18] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 89
+INFORMATION: [2024-07-12 11:01:19] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:01:19] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+WARNING: [2024-07-12 11:01:19] User d454bdfe-814e-4dea-9414-001df23ebcec validation failed: InvalidUserName;InvalidEmail.
+INFORMATION: [2024-07-12 11:01:19] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 87.9461ms.
+INFORMATION: [2024-07-12 11:01:19] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 11:01:19] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 744.8865ms
+INFORMATION: [2024-07-12 11:01:19] Request finished in 829.5998ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 11:09:17] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFORMATION: [2024-07-12 11:09:19] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-12 11:09:19] Executed DbCommand (38ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+DEBUG: [2024-07-12 11:09:20] Failed to authenticate HTTPS connection.
+DEBUG: [2024-07-12 11:09:20] Failed to authenticate HTTPS connection.
+INFORMATION: [2024-07-12 11:09:20] Request starting HTTP/1.1 GET https://localhost:5555/  
+INFORMATION: [2024-07-12 11:09:21] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SunnyLize.Word.Web.Server.HomeController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:09:21] Executing action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:09:21] Executed action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.5312ms.
+INFORMATION: [2024-07-12 11:09:25] Executing ViewResult, running view Index.
+INFORMATION: [2024-07-12 11:09:25] Executed ViewResult - view Index executed in 4521.6537ms.
+INFORMATION: [2024-07-12 11:09:25] Executed action SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) in 4625.3295ms
+INFORMATION: [2024-07-12 11:09:25] Request finished in 4998.6647ms 200 text/html; charset=utf-8
+INFORMATION: [2024-07-12 11:09:49] Request starting HTTP/1.1 POST http://localhost:5000/api/login application/json 53
+INFORMATION: [2024-07-12 11:09:49] Request finished in 17.919ms 307 
+INFORMATION: [2024-07-12 11:09:49] Connection id "0HN5297N96MS1", Request id "0HN5297N96MS1:00000001": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 11:09:49] Request starting HTTP/1.1 POST https://localhost:5555/api/login application/json 53
+INFORMATION: [2024-07-12 11:09:49] Route matched with {action = "LoginAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.LoginResultApiModel]] LoginAsync(SunnyLize.Word.Core.LoginCredentialApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:09:49] Executing action method SunnyLize.Word.Web.Server.ApiController.LoginAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:09:49] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-12 11:09:51] Executed DbCommand (470ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+WARNING: [2024-07-12 11:09:51] Invalid password for user f2f71f27-8e74-402d-9329-5d61181b4288.
+INFORMATION: [2024-07-12 11:09:51] Executed action method SunnyLize.Word.Web.Server.ApiController.LoginAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1984.745ms.
+INFORMATION: [2024-07-12 11:09:51] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.LoginResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 11:09:51] Executed action SunnyLize.Word.Web.Server.ApiController.LoginAsync (SunnyLize.Word.Web.Server) in 2389.0069ms
+INFORMATION: [2024-07-12 11:09:51] Request finished in 2435.9673ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 11:10:54] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 86
+INFORMATION: [2024-07-12 11:10:54] Request finished in 3.3164ms 307 
+INFORMATION: [2024-07-12 11:10:54] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 86
+INFORMATION: [2024-07-12 11:10:54] Connection id "0HN5297N96MS1", Request id "0HN5297N96MS1:00000002": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 11:10:54] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:10:54] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:10:54] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.2884ms.
+INFORMATION: [2024-07-12 11:10:54] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 11:10:54] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 79.2652ms
+INFORMATION: [2024-07-12 11:10:54] Request finished in 111.6771ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 11:11:23] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 88
+INFORMATION: [2024-07-12 11:11:23] Request finished in 3.1963ms 307 
+INFORMATION: [2024-07-12 11:11:23] Connection id "0HN5297N96MS1", Request id "0HN5297N96MS1:00000003": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 11:11:23] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 88
+INFORMATION: [2024-07-12 11:11:23] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:11:23] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:11:23] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0613ms.
+INFORMATION: [2024-07-12 11:11:23] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 11:11:23] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 19.9719ms
+INFORMATION: [2024-07-12 11:11:23] Request finished in 36.9761ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 11:11:42] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 88
+INFORMATION: [2024-07-12 11:11:42] Request finished in 43.8077ms 307 
+INFORMATION: [2024-07-12 11:11:42] Connection id "0HN5297N96MS1", Request id "0HN5297N96MS1:00000004": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 11:11:42] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 88
+INFORMATION: [2024-07-12 11:11:42] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:11:42] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:11:42] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0177ms.
+INFORMATION: [2024-07-12 11:11:42] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 11:11:42] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 39.3747ms
+INFORMATION: [2024-07-12 11:11:42] Request finished in 69.9102ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 11:19:30] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFORMATION: [2024-07-12 11:19:31] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-12 11:19:32] Executed DbCommand (51ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+DEBUG: [2024-07-12 11:19:32] Failed to authenticate HTTPS connection.
+DEBUG: [2024-07-12 11:19:32] Failed to authenticate HTTPS connection.
+INFORMATION: [2024-07-12 11:19:33] Request starting HTTP/1.1 GET https://localhost:5555/  
+INFORMATION: [2024-07-12 11:19:34] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SunnyLize.Word.Web.Server.HomeController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:19:34] Executing action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:19:34] Executed action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.5534ms.
+INFORMATION: [2024-07-12 11:19:38] Executing ViewResult, running view Index.
+INFORMATION: [2024-07-12 11:19:39] Executed ViewResult - view Index executed in 5196.4566ms.
+INFORMATION: [2024-07-12 11:19:39] Executed action SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) in 5284.2471ms
+INFORMATION: [2024-07-12 11:19:39] Request finished in 5745.4233ms 200 text/html; charset=utf-8
+INFORMATION: [2024-07-12 11:20:23] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 89
+INFORMATION: [2024-07-12 11:20:23] Request finished in 27.8575ms 307 
+INFORMATION: [2024-07-12 11:20:23] Connection id "0HN529DDU1S1R", Request id "0HN529DDU1S1R:00000001": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 11:20:23] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 89
+INFORMATION: [2024-07-12 11:20:23] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:20:23] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:20:23] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 39.7164ms.
+INFORMATION: [2024-07-12 11:20:23] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 11:20:24] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 384.1463ms
+INFORMATION: [2024-07-12 11:20:24] Request finished in 423.7115ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 11:20:50] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 89
+INFORMATION: [2024-07-12 11:20:50] Request finished in 3.9389ms 307 
+INFORMATION: [2024-07-12 11:20:50] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 89
+INFORMATION: [2024-07-12 11:20:50] Connection id "0HN529DDU1S1R", Request id "0HN529DDU1S1R:00000002": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 11:20:50] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:20:50] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:20:50] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1394ms.
+INFORMATION: [2024-07-12 11:20:50] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 11:20:50] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 26.3936ms
+INFORMATION: [2024-07-12 11:20:50] Request finished in 56.8317ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 11:37:47] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFORMATION: [2024-07-12 11:37:48] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-12 11:37:48] Executed DbCommand (49ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE') SELECT 1 ELSE SELECT 0
+DEBUG: [2024-07-12 11:37:49] Failed to authenticate HTTPS connection.
+INFORMATION: [2024-07-12 11:37:50] Request starting HTTP/1.1 GET https://localhost:5555/  
+INFORMATION: [2024-07-12 11:37:50] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller SunnyLize.Word.Web.Server.HomeController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:37:50] Executing action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:37:50] Executed action method SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2.0122ms.
+INFORMATION: [2024-07-12 11:37:54] Executing ViewResult, running view Index.
+INFORMATION: [2024-07-12 11:37:55] Executed ViewResult - view Index executed in 4491.6438ms.
+INFORMATION: [2024-07-12 11:37:55] Executed action SunnyLize.Word.Web.Server.HomeController.Index (SunnyLize.Word.Web.Server) in 4568.6708ms
+INFORMATION: [2024-07-12 11:37:55] Request finished in 4941.5112ms 200 text/html; charset=utf-8
+INFORMATION: [2024-07-12 11:37:56] Request starting HTTP/1.1 POST http://localhost:5000/api/register application/json 89
+INFORMATION: [2024-07-12 11:37:56] Request finished in 14.1404ms 307 
+INFORMATION: [2024-07-12 11:37:56] Connection id "0HN529NKOF9PK", Request id "0HN529NKOF9PK:00000001": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 11:37:56] Request starting HTTP/1.1 POST https://localhost:5555/api/register application/json 89
+INFORMATION: [2024-07-12 11:37:56] Route matched with {action = "RegisterAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.RegisterResultApiModel]] RegisterAsync(SunnyLize.Word.Core.RegisterCredentialsApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:37:56] Executing action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:37:56] Executed action method SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.9856ms.
+INFORMATION: [2024-07-12 11:37:56] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.RegisterResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 11:37:56] Executed action SunnyLize.Word.Web.Server.ApiController.RegisterAsync (SunnyLize.Word.Web.Server) in 501.2677ms
+INFORMATION: [2024-07-12 11:37:56] Request finished in 581.775ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 11:38:14] Request starting HTTP/1.1 POST http://localhost:5000/api/login application/json 53
+INFORMATION: [2024-07-12 11:38:14] Request finished in 9.3591ms 307 
+INFORMATION: [2024-07-12 11:38:14] Connection id "0HN529NKOF9PK", Request id "0HN529NKOF9PK:00000002": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 11:38:14] Request starting HTTP/1.1 POST https://localhost:5555/api/login application/json 53
+INFORMATION: [2024-07-12 11:38:14] Route matched with {action = "LoginAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.LoginResultApiModel]] LoginAsync(SunnyLize.Word.Core.LoginCredentialApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:38:14] Executing action method SunnyLize.Word.Web.Server.ApiController.LoginAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:38:14] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-12 11:38:15] Executed DbCommand (86ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+WARNING: [2024-07-12 11:38:15] Invalid password for user f2f71f27-8e74-402d-9329-5d61181b4288.
+INFORMATION: [2024-07-12 11:38:15] Executed action method SunnyLize.Word.Web.Server.ApiController.LoginAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 604.5086ms.
+INFORMATION: [2024-07-12 11:38:15] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.LoginResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 11:38:15] Executed action SunnyLize.Word.Web.Server.ApiController.LoginAsync (SunnyLize.Word.Web.Server) in 639.1356ms
+INFORMATION: [2024-07-12 11:38:15] Request finished in 662.2356ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 11:39:00] Request starting HTTP/1.1 POST http://localhost:5000/api/login application/json 61
+INFORMATION: [2024-07-12 11:39:00] Request finished in 16.2569ms 307 
+INFORMATION: [2024-07-12 11:39:00] Connection id "0HN529NKOF9PK", Request id "0HN529NKOF9PK:00000003": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 11:39:00] Request starting HTTP/1.1 POST https://localhost:5555/api/login application/json 61
+INFORMATION: [2024-07-12 11:39:00] Route matched with {action = "LoginAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.LoginResultApiModel]] LoginAsync(SunnyLize.Word.Core.LoginCredentialApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:39:00] Executing action method SunnyLize.Word.Web.Server.ApiController.LoginAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:39:00] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-12 11:39:00] Executed DbCommand (278ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedEmail] = @__normalizedEmail_0
+WARNING: [2024-07-12 11:39:00] Invalid password for user f2f71f27-8e74-402d-9329-5d61181b4288.
+INFORMATION: [2024-07-12 11:39:00] Executed action method SunnyLize.Word.Web.Server.ApiController.LoginAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 358.0938ms.
+INFORMATION: [2024-07-12 11:39:00] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.LoginResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 11:39:00] Executed action SunnyLize.Word.Web.Server.ApiController.LoginAsync (SunnyLize.Word.Web.Server) in 377.8692ms
+INFORMATION: [2024-07-12 11:39:00] Request finished in 398.9267ms 200 application/json; charset=utf-8
+INFORMATION: [2024-07-12 11:39:35] Request starting HTTP/1.1 POST http://localhost:5000/api/login application/json 49
+INFORMATION: [2024-07-12 11:39:35] Request finished in 8.469ms 307 
+INFORMATION: [2024-07-12 11:39:35] Connection id "0HN529NKOF9PK", Request id "0HN529NKOF9PK:00000004": the application completed without reading the entire request body.
+INFORMATION: [2024-07-12 11:39:35] Request starting HTTP/1.1 POST https://localhost:5555/api/login application/json 49
+INFORMATION: [2024-07-12 11:39:35] Route matched with {action = "LoginAsync", controller = "Api"}. Executing controller action with signature System.Threading.Tasks.Task`1[SunnyLize.Word.Core.ApiResponse`1[SunnyLize.Word.Core.LoginResultApiModel]] LoginAsync(SunnyLize.Word.Core.LoginCredentialApiModel) on controller SunnyLize.Word.Web.Server.ApiController (SunnyLize.Word.Web.Server).
+INFORMATION: [2024-07-12 11:39:35] Executing action method SunnyLize.Word.Web.Server.ApiController.LoginAsync (SunnyLize.Word.Web.Server) - Validation state: Valid
+INFORMATION: [2024-07-12 11:39:35] Entity Framework Core 2.1.14-servicing-32113 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+INFORMATION: [2024-07-12 11:39:35] Executed DbCommand (7ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[ConcurrencyStamp], [u].[Email], [u].[EmailConfirmed], [u].[FirstName], [u].[LastName], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0
+INFORMATION: [2024-07-12 11:39:35] Executed action method SunnyLize.Word.Web.Server.ApiController.LoginAsync (SunnyLize.Word.Web.Server), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 16.1899ms.
+INFORMATION: [2024-07-12 11:39:35] Executing ObjectResult, writing value of type 'SunnyLize.Word.Core.ApiResponse`1[[SunnyLize.Word.Core.LoginResultApiModel, SunnyLize.Word.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+INFORMATION: [2024-07-12 11:39:35] Executed action SunnyLize.Word.Web.Server.ApiController.LoginAsync (SunnyLize.Word.Web.Server) in 36.0442ms
+INFORMATION: [2024-07-12 11:39:35] Request finished in 56.5772ms 200 application/json; charset=utf-8
